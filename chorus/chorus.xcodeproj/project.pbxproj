@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C6795EB2D9891B9005D3E45 /* chorus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chorus.entitlements; sourceTree = "<group>"; };
 		8CD1F2442D94A8C600E1C0AE /* chorus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chorus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD1F2472D94A8C600E1C0AE /* chorusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chorusApp.swift; sourceTree = "<group>"; };
 		8CD1F2492D94A8C600E1C0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		8CD1F2462D94A8C600E1C0AE /* chorus */ = {
 			isa = PBXGroup;
 			children = (
+				8C6795EB2D9891B9005D3E45 /* chorus.entitlements */,
 				8CD1F2472D94A8C600E1C0AE /* chorusApp.swift */,
 				8CD1F2492D94A8C600E1C0AE /* ContentView.swift */,
 				8CD1F24B2D94A8C800E1C0AE /* Assets.xcassets */,
@@ -269,6 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chorus/chorus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"chorus/Preview Content\"";
@@ -298,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chorus/chorus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"chorus/Preview Content\"";
