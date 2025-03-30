@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C6795EE2D98D111005D3E45 /* HomeARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6795ED2D98D111005D3E45 /* HomeARView.swift */; };
+		8C6795F02D98D1E7005D3E45 /* HomeARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6795EF2D98D1E7005D3E45 /* HomeARViewRepresentable.swift */; };
 		8CD1F2482D94A8C600E1C0AE /* chorusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1F2472D94A8C600E1C0AE /* chorusApp.swift */; };
 		8CD1F24A2D94A8C600E1C0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1F2492D94A8C600E1C0AE /* ContentView.swift */; };
 		8CD1F24C2D94A8C800E1C0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1F24B2D94A8C800E1C0AE /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 
 /* Begin PBXFileReference section */
 		8C6795EB2D9891B9005D3E45 /* chorus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chorus.entitlements; sourceTree = "<group>"; };
+		8C6795ED2D98D111005D3E45 /* HomeARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeARView.swift; sourceTree = "<group>"; };
+		8C6795EF2D98D1E7005D3E45 /* HomeARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeARViewRepresentable.swift; sourceTree = "<group>"; };
 		8CD1F2442D94A8C600E1C0AE /* chorus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chorus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD1F2472D94A8C600E1C0AE /* chorusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chorusApp.swift; sourceTree = "<group>"; };
 		8CD1F2492D94A8C600E1C0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +37,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C6795EC2D98D0CC005D3E45 /* Feature Targets */ = {
+			isa = PBXGroup;
+			children = (
+				8CD1F2492D94A8C600E1C0AE /* ContentView.swift */,
+				8C6795ED2D98D111005D3E45 /* HomeARView.swift */,
+				8C6795EF2D98D1E7005D3E45 /* HomeARViewRepresentable.swift */,
+			);
+			path = "Feature Targets";
+			sourceTree = "<group>";
+		};
 		8CD1F23B2D94A8C600E1C0AE = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +66,9 @@
 		8CD1F2462D94A8C600E1C0AE /* chorus */ = {
 			isa = PBXGroup;
 			children = (
+				8C6795EC2D98D0CC005D3E45 /* Feature Targets */,
 				8C6795EB2D9891B9005D3E45 /* chorus.entitlements */,
 				8CD1F2472D94A8C600E1C0AE /* chorusApp.swift */,
-				8CD1F2492D94A8C600E1C0AE /* ContentView.swift */,
 				8CD1F24B2D94A8C800E1C0AE /* Assets.xcassets */,
 				8CD1F24D2D94A8C800E1C0AE /* Preview Content */,
 			);
@@ -139,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6795EE2D98D111005D3E45 /* HomeARView.swift in Sources */,
 				8CD1F24A2D94A8C600E1C0AE /* ContentView.swift in Sources */,
 				8CD1F2482D94A8C600E1C0AE /* chorusApp.swift in Sources */,
+				8C6795F02D98D1E7005D3E45 /* HomeARViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +294,7 @@
 				DEVELOPMENT_TEAM = 325A4B7NVW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to show AR View";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +325,7 @@
 				DEVELOPMENT_TEAM = 325A4B7NVW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to show AR View";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

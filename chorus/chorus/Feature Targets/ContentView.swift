@@ -73,6 +73,8 @@ struct ContentView: View {
             }
             else {
                 // open up the homepage
+                HomeARViewRepresentable()
+                    .ignoresSafeArea()
             }
         }
         .padding()
